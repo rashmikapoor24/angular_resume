@@ -1,0 +1,57 @@
+@import 'components/summary.less';
+@import 'variables.less';
+@import url('http://fonts.googleapis.com/css?family=Lato|Open+Sans|Josefin+Slab');
+
+body {
+	background-color: @bodyColor;
+	font-family:'Open Sans';
+	font-weight: 500;
+	font-size: 14px;
+	h1,h2,h3,h4,h5,h6,h7 {
+		font-family:'Josefin Slab';
+		font-weight: 700;
+	}
+	&.xsmall {
+		font-size: 10px;
+	}
+	&.small {
+		font-size: 12px;
+	}
+	&.medium {
+		font-size: 14px;
+	}
+	&.large {
+		font-size: 16px;
+	}
+	.main-content {
+		margin: 20px auto;
+		padding: 1.5em;
+		max-width: 1000px;
+		background-color: @mainColor;
+		height: 100%;
+	}
+	.effect8
+	{
+			position:relative;
+			box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	}
+	.effect8:before, .effect8:after
+	{
+		content:"";
+			position:absolute; 
+			z-index:-1;
+			box-shadow:0 0 20px rgba(0,0,0,0.8);
+			top:10px;
+			bottom:10px;
+			left:0;
+			right:0;
+			border-radius:100px / 10px;
+	} 
+	.effect8:after
+	{
+			right:10px; 
+			left:auto; 
+			transform:skew(8deg) rotate(3deg);
+	}
+}
+

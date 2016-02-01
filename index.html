@@ -1,0 +1,44 @@
+<html ng-app="app">
+	<head>
+		<script src="
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.min.js"></script>
+		
+	<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet/less" type="text/css" href="css/main.less">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+	
+  	<script src="js/module.js"></script>
+		<script src="js/controller.js"></script>
+		<script src="components/summary/summary.directive.js"></script>
+		<script src="components/skills/skills.directive.js"></script>
+		<script src="components/education/education.directive.js"></script>
+		<script src="components/experience/experience.directive.js"></script>
+
+
+		
+	</head>
+	<body class="{{theme.size}}">
+		<div ng-controller="mainController" class="main-content effect8">
+			{{helloText}}
+			
+				<summary></summary>
+<!--
+				<li><skills></skills></li>
+				<li><experience></experience></li>
+				<li><education></education></li>
+-->
+			
+		</div>
+	</body>
+</html>

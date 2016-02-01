@@ -1,0 +1,67 @@
+{ 
+	"summary":{
+		"name":"Rashmi Kapoor",
+		"title": "Application Architect",
+		"currentEmployer": "Dow Jones",
+		"previousEmployer": "abc",
+		"location": "Greater New York Area",	"profilePic":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/047/13c/0c41c90.jpg"
+	},
+	"experiences": [
+		{
+			"company":"Dow Jones",
+			"title": "Application Architect",
+			"startDate": "6/2010",
+			"endDate": "",
+			"location": "Greater New York Area",
+			"description":"desc",
+			"responsibity":[
+				"resp 1","resp 2","resp 3","resp 4","resp 5"
+			],
+			"skills":[
+				"java","javascript","angular"
+			],
+			"link":""
+		},
+		{
+			"company":"Mercedes-Benz USA",
+			"title": "Consultant",
+			"startDate": "11/2008",
+			"endDate": "6/2010",
+			"location": "Montvale, NJ",
+			"description":"desc Merc",
+			"responsibity":[
+				"resp 1","resp 2","resp 3","resp 4","resp 5"
+			],
+			"skills":[
+				"java","javascript","angular"
+			],
+			"link":""
+		}
+	],
+	"topSkills":[
+		{
+			"skillCategory":"Web Technologies",
+			"skills":[
+				{
+					"skill":"DOM",
+					"isHighlight":false
+				},
+				{
+					"skill":"JavaScript",
+					"isHighlight":false
+				},
+				{
+					"skill":"JQuery",
+					"isHighlight":false
+				}
+			]
+		}
+	],
+	"education":[
+		{
+			"level":"Bachelor",
+			"year":"2003",
+			"institute":"IPS Academy, Indore"
+		}
+	]
+}

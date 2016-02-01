@@ -1,0 +1,43 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "lint": "gulp lint",
+    "inject": "gulp inject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntgn81/djapp.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntgn81/djapp.github.io/issues"
+  },
+  "homepage": "https://github.com/ntgn81/djapp.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-if": "^1.2.5",
+    "gulp-inject": "^1.3.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-less": "^3.0.3",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-minify-inline": "^0.1.1",
+    "gulp-order": "^1.1.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.2",
+    "gulp-sequence": "^0.4.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-useref": "^1.3.0",
+    "rimraf": "^2.4.3"
+  }
+}
