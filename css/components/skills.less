@@ -1,0 +1,28 @@
+.skill-container {
+	ul {
+		list-style: none;
+    padding-left: 0px;
+    li {
+    	margin-bottom: 5px;
+    	min-height: 30px;
+    }
+    &:after {
+			clear: both;
+		}
+	}
+	.rating-wrapper {
+		background-color: lightgrey;
+		.rating {
+			background-color: orange;
+			height: 30px;
+			padding: 5px 20px;
+			.skill-years {
+				color: brown;
+				font-style: italic;
+			}
+		}
+	}
+	&:after {
+		clear: both;
+	}
+}
