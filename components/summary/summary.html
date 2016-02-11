@@ -1,12 +1,12 @@
 <div class="summary">
 	<div class="row">
 		<div class="col-md-3">
-			<img src="{{vm.summary.profilePic}}" class="img-responsive img-thumbnail">
+			<img src="{{vm.summary.profilePic}}" class="img-responsive img-thumbnail" ng-show="vm.showProfilePic">
 		</div>
-		<div class="col-md-9">
-			<h1 class="name">{{vm.summary.name}}</h1>
-			<div class="title">{{vm.summary.title}}</div>
-			<div class="current-employer">{{vm.summary.currentEmployer}}</div>
+		<div class="col-md-9 detail">
+			<h1 class="name" ng-show="vm.showName">{{vm.summary.name}}</h1>
+			<div class="title" ng-show="vm.showTitle">{{vm.summary.title}}</div>
+			<div class="current-employer"  ng-show="vm.showCurrentEmployer">{{vm.summary.currentEmployer}}</div>
 			
 		</div>
 	</div>

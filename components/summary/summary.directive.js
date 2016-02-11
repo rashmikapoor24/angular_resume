@@ -15,9 +15,9 @@
 		}
 	}					 
 
-	Controller.$inject = ['$scope', 'resumeService'];
+	Controller.$inject = ['$scope', '$timeout', 'resumeService'];
 	
-	function Controller($scope, resumeService){
+	function Controller($scope, $timeout, resumeService){
 		var vm = this;
 		
 		loadData();
@@ -26,8 +26,14 @@
 			resumeService.getSummary().then(function(summary){
 				vm.summary = summary;
 				console.log(vm.summary);
+                $timeout(function(){ vm.showProfilePic = true; }, 300, true);
+                $timeout(function(){ vm.showName = true; }, 600, true);
+                $timeout(function(){ vm.showTitle = true; }, 700, true);
+                $timeout(function(){ vm.showCurrentEmployer = true; }, 800, true);
+                
 			});
 		}
+        
 	}
 })();
 	
