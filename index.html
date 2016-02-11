@@ -20,25 +20,21 @@ https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
 	
   	<script src="js/module.js"></script>
 		<script src="js/controller.js"></script>
+		<script src="js/service.js"></script>
 		<script src="components/summary/summary.directive.js"></script>
 		<script src="components/skills/skills.directive.js"></script>
 		<script src="components/education/education.directive.js"></script>
 		<script src="components/experience/experience.directive.js"></script>
-
 
 		
 	</head>
 	<body class="{{theme.size}}">
 		<div ng-controller="mainController" class="main-content effect8">
 			{{helloText}}
-			
 				<summary></summary>
-<!--
-				<li><skills></skills></li>
-				<li><experience></experience></li>
-				<li><education></education></li>
--->
-			
+				<skills></skills>
+				<experience></experience>
+				<education></education>
 		</div>
 	</body>
 </html>

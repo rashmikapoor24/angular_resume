@@ -9,24 +9,24 @@
 			templateUrl: 'components/skills/skills.html',
 			restrict: 'E',
 			controller: Controller,
-      controllerAs: 'vm',
+     	controllerAs: 'vm',
 			bindToController: true,
 			scope: {}
-		}
+		};
 	}
 
-	Controller.$inject = ['$scope', '$http'];
+	Controller.$inject = ['$scope', 'resumeService'];
 	
-	function Controller($scope, $http){
+	function Controller($scope, resumeService){
 		var vm = this;
 		
 		loadData();
 		
 		function loadData(){
-			 $http.get('data/rashmi.json').then(function(resp){
-				 if(!resp) return {};
-				 vm.topSkills = resp.data.topSkills;
-			 })
+			resumeService.getSkills().then(function(skills){
+				vm.topSkills = skills;
+				console.log(vm.topSkills);
+			});
 		}
 	}
 })();

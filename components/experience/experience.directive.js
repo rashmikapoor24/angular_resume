@@ -15,18 +15,18 @@
 		}
 	}					 
 
-	Controller.$inject = ['$scope', '$http'];
+	Controller.$inject = ['$scope', 'resumeService'];
 	
-	function Controller($scope, $http){
+	function Controller($scope, resumeService){
 		var vm = this;
 		
 		loadData();
 		
 		function loadData(){
-			 $http.get('data/rashmi.json').then(function(resp){
-				 if(!resp) return {};
-				 vm.experiences = resp.data.experiences;
-			 })
+			resumeService.getExperiences().then(function(experiences){
+				vm.experiences = experiences;
+				console.log(vm.experiences);
+			});
 		}
 	}
 })();

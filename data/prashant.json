@@ -1,0 +1,79 @@
+{ 
+	"summary":{
+		"name":"Prashant Sapkal",
+		"title": "UI/UX Architect",
+		"currentEmployer": "Prudential Financial",
+		"previousEmployer": "Merrill Lynch",
+		"location": "Woodbridge, NJ",	
+		"profilePic":"https://media.licdn.com/media/p/4/000/15f/3e7/339c872.jpg"
+	},
+	"contactInfo":{
+		"phone":"732-763-2078",
+		"email":"prashant0728@gmail.com",
+		"address":"24 Saratoga Ln, Monroe Township, NJ 08831"
+	},
+	"myWork":{
+		"website":[],
+		"apps":[],
+		"others":[{"name":"","url":"","desc":""}]
+	},
+	"experiences": [
+		{
+			"company":"Prudential Financial",
+			"title": "UI/UX Architect",
+			"startDate": "11/2014",
+			"endDate": "",
+			"location": "Woodbridge, NJ",
+			"description":"desc",
+			"responsibity":["resp 1","resp 2","resp 3","resp 4","resp 5"],
+			"skills":["java","javascript","angular"],
+			"link":""
+		},
+		{
+			"company":"Merrill Lynch",
+			"title": "Tech Lead Mobile",
+			"startDate": "12/2008",
+			"endDate": "11/2014",
+			"location": "Hopewell, NJ",
+			"description":"desc Merrill",
+			"responsibity":["resp 1","resp 2","resp 3","resp 4","resp 5"],
+			"skills":["java","javascript","angular"],
+			"link":""
+		}
+	],
+	"topSkills":[
+		{
+			"skillCategory":"Web Technologies",
+			"skills":[
+				{
+					"skill":"DOM",
+					"isHighlight":false,
+					"rating":8,
+					"years":8
+				},
+				{
+					"skill":"JavaScript",
+					"isHighlight":false,
+					"rating":9,
+  				"years":7
+
+				},
+				{
+					"skill":"JQuery",
+					"isHighlight":false,
+					"rating":10,
+  				"years":5
+				}
+			]
+		}
+	],
+	"education":[
+		{
+			"level":"Bachelors",
+			"year":"2000",
+			"institute":"Mumbai University"
+		}
+	],
+	"references":[{"name":"","role":""}],
+	"achievements":["achv1","achv2"]
+}

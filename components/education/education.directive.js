@@ -12,20 +12,20 @@
       controllerAs: 'vm',
 			bindToController: true,
 			scope: {}
-		}
+		};
 	}
 
-	Controller.$inject = ['$scope', '$http'];
+	Controller.$inject = ['$scope', 'resumeService'];
 	
-	function Controller($scope, $http){
+	function Controller($scope, resumeService){
 		var vm = this;
 		loadData();
 		
 		function loadData(){
-			 $http.get('data/rashmi.json').then(function(resp){
-				 if(!resp) return {};
-				 vm.education = resp.data.education;
-			 })
+			resumeService.getEducation().then(function(education){
+				vm.education = education;
+				console.log(vm.education);
+			});
 		}
 	}
 })();
