@@ -46,23 +46,125 @@
 			"skillCategory":"Web Technologies",
 			"skills":[
 				{
-					"skill":"DOM",
-					"isHighlight":false,
-					"rating":8,
-					"years":8
-				},
-				{
-					"skill":"JavaScript",
+					"skill":"AngularJS",
 					"isHighlight":false,
 					"rating":9,
-  				"years":7
+  				"years":2
 
+				},
+				{
+					"skill":"Node.js",
+					"isHighlight":false,
+					"rating":7,
+					"years":1
+				},
+				{
+					"skill":"Knockout",
+					"isHighlight":false,
+					"rating":7,
+  				"years":1
+				},
+				{
+					"skill":"Javascript",
+					"isHighlight":false,
+					"rating":8,
+  				"years":6
+				},
+				{
+					"skill":"HTML5",
+					"isHighlight":false,
+					"rating":9,
+  				"years":4
+				},
+				{
+					"skill":"CSS3",
+					"isHighlight":false,
+					"rating":8,
+  				"years":4
 				},
 				{
 					"skill":"JQuery",
 					"isHighlight":false,
+					"rating":7,
+  				"years":5
+				},
+				{
+					"skill":"Grunt",
+					"isHighlight":false,
+					"rating":8,
+  				"years":5
+				},
+				{
+					"skill":"Less",
+					"isHighlight":false,
 					"rating":10,
   				"years":5
+				},
+				{
+					"skill":"ASP.NET",
+					"isHighlight":false,
+					"rating":8,
+  				"years":5
+				},
+				{
+					"skill":"JSP",
+					"isHighlight":false,
+					"rating":5,
+  				"years":5
+				}
+			]
+		},
+		{
+			"skillCategory":"Build and Testing Tools",
+			"skills":[
+				{
+					"skill":"Grunt",
+					"isHighlight":false,
+					"rating":9,
+  				"years":2
+
+				},
+				{
+					"skill":"Bower",
+					"isHighlight":false,
+					"rating":6,
+					"years":1
+				},
+				{
+					"skill":"Jasmine",
+					"isHighlight":false,
+					"rating":7,
+  				"years":1
+				},
+				{
+					"skill":"Karma",
+					"isHighlight":false,
+					"rating":8,
+  				"years":1
+				},
+				{
+					"skill":"Protractor",
+					"isHighlight":false,
+					"rating":7,
+  				"years":1
+				},
+				{
+					"skill":"NUnit",
+					"isHighlight":false,
+					"rating":5,
+  				"years":1
+				},
+				{
+					"skill":"NCover",
+					"isHighlight":false,
+					"rating":5,
+  				"years":1
+				},
+				{
+					"skill":"MSTest",
+					"isHighlight":false,
+					"rating":6,
+  				"years":1
 				}
 			]
 		}

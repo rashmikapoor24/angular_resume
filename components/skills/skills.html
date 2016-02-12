@@ -2,8 +2,8 @@
 <div class="skill-container clearfix">
 	<div ng-repeat="sk in vm.topSkills">
 		<h4>{{sk.skillCategory}}</h4>
-		<ul>
-			<li ng-repeat="skill in sk.skills">
+		<div class="row">
+			<div class="col-sm-4" ng-repeat="skill in sk.skills">
 				<div class="rating-wrapper">
 					<div class="rating" style="width:{{skill.rating*10}}%">
 						<span class="skill">{{skill.skill}}</span>	
@@ -11,8 +11,7 @@
  						<span class="skill-years">{{skill.years}} years</span>
 					</div>
 				</div>
-			</li>
-		</ul>
+			</div>
+		</div>
 	</div>
 </div>
-<div style="clear:both"></div>
